@@ -10,5 +10,8 @@ export default {
   },
   stacks(app) {
     app.stack(cron)
+    if (app.stage !== 'prod') {
+      app.setDefaultRemovalPolicy('destroy')
+    }
   },
 } satisfies SSTConfig
