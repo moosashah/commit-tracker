@@ -10,4 +10,5 @@ Tracking the days that I made no contributions ie no coding
  1. January 13 
  1. January 14 
  1. January 16 
- 1. January 20
+ 1. January 20 
+ 1. January 21
